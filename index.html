@@ -2,15 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Cameron Stevenson | Frontend Developer </title> 
         <!-- Link to style sheet -->
         <link rel="stylesheet" href="styles.css">
+        
         <!-- google fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
         <!-- font awesome -->
@@ -18,14 +18,35 @@
     </head>
 
     <body>
-        <!-- Navbar START HERE -->
-        <div class="nav-container">
-            <nav>
-                <div id="nav-title">Cameron Stevenson</div>
-                <div id="nav-menu-icon">  <i class="fas fa-bars"></i> </div>
-            </nav>  
-        </div>
-        <!-- Navbar END HERE -->
         
+        <div class="container">
+
+            <!-- SIDE MENU START HERE -->
+            <div class="navigation active">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- SIDE MENU END HERE -->
+
+        <!-- Main Content START HERE -->
+        <div class="main active">
+            <!-- Navbar START HERE -->
+            <nav class="active">
+                <a id="nav-title">Cameron Stevenson</a>
+                <div class="menu-toggle active">  <i class="fas fa-bars"></i> </div>
+            </nav>  
+            <!-- Navbar END HERE -->
+        </div>
+
+
+
+        </div>
+        
+        <!-- Load Javascript -->
+        <script src="main.js"></script>
     </body>
 </html>
