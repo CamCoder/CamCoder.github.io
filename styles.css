@@ -188,19 +188,39 @@ nav.active{
 #welcome-section{
     height: 100vh;
     width: 100%;
-    background: mediumspringgreen;
+    background: var(--primary-color);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+#welcome-section h1{
+    /* position: relative; */
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+#welcome-section p {
+    
+}
+
 
 /* Projects */
 
 #projects{
+    position: relative;
     height: 100vh;
     width: 100%;
-    background: mediumvioletred;
+    background: mediumaquamarine;
+    border: 10px solid red;
 }
 
 /* Contact */
 #contact{
+    position: relative;
     height: 40vh;
     width: 100%;
     background: mediumpurple;
