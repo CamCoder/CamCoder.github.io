@@ -198,3 +198,10 @@ nav.active{
     width: 100%;
     background: mediumvioletred;
 }
+
+/* Contact */
+#contact{
+    height: 40vh;
+    width: 100%;
+    background: mediumpurple;
+}
