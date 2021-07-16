@@ -13,6 +13,9 @@ box-sizing: border-box;
 font-family: 'Roboto Mono', monospace;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
 background-color: black;    
 }
@@ -128,6 +131,10 @@ nav.active{
     width: calc(100% - 0px);
 }
 
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
 
 #nav-title{
     font-size: 1.4em;
@@ -175,4 +182,19 @@ nav.active{
     .nav-close:hover{
     opacity: 1;
     }
+}
+
+/* WELCOME SECTION */
+#welcome-section{
+    height: 100vh;
+    width: 100%;
+    background: mediumspringgreen;
+}
+
+/* Projects */
+
+#projects{
+    height: 100vh;
+    width: 100%;
+    background: mediumvioletred;
 }
