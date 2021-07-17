@@ -1,6 +1,6 @@
 :root{
     --primary-color: #f8f7ff ;
-    --secondary-color: ;
+    --secondary-color: black;
     --night-primary-color: ;
     --night-secondary-color: ;
 }
@@ -226,4 +226,31 @@ nav.active{
     width: 100%;
     background: var(--primary-color);
     border-top: 2px solid rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
 }
+#contact h2{
+    font-size: xx-large;
+
+}
+
+/* #contact p {
+
+} */
+
+#contact button{
+    padding: 1rem;
+    background: var(--secondary-color);
+    color: white;
+    border: 2px solid black;
+    font-weight: 800;
+}
+
+#contact button:hover{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+} 
