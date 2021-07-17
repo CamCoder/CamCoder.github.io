@@ -248,6 +248,17 @@ nav.active{
     margin: auto;
 }
 
+.project-tile .project-text{
+    position: relative;
+    float: left;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+    margin: auto;
+    top: 2.5rem;
+    right: 1.5rem;
+}
+
 /* Contact */
 #contact{
     position: relative;
@@ -261,10 +272,6 @@ nav.active{
     justify-content: center;
     gap: 1rem;
     text-align: center;
-
-
-    border: 5px solid orange;
-    background: orchid;
 }
 #contact h2{
     font-size: xx-large;
